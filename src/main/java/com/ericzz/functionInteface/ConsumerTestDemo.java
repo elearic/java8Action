@@ -17,6 +17,7 @@ public class ConsumerTestDemo {
         ConsumerTestDemo.forEach(Arrays.asList(1,2,3,4,5),(Integer integer) -> System.out.printf(integer.toString()));
 
 
+
     }
 
     public static <T> void forEach(List<T> list, Consumer<T> c){
