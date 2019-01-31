@@ -8,7 +8,7 @@ public class PredicateTestDemo {
 
     public static void main(String[] args){
 
-        //java.utils.function.Predicate 函数式接口默认唯一的抽象方法 接收一个泛型T对象，返回一个boolean类型的值
+        //java.utils.function.Predicate 函数式接口唯一的抽象方法 接收一个泛型T对象，返回一个boolean类型的值
         //定义Predicate 时，实现可直接内联lambda
         Predicate<String> predicate = (String str) -> !str.isEmpty();
 
