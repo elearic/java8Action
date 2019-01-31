@@ -15,9 +15,6 @@ public class ConsumerTestDemo {
         //java.util.function.Consumer 函数式接口的唯一抽象抽象方法accept(T t) 接收一个泛型T的对象，返回一个void值
         //对于方法入参为Consumer<T> 时，可直接传入Comsumer.accept的lambda表达式
         ConsumerTestDemo.forEach(Arrays.asList(1,2,3,4,5),(Integer integer) -> System.out.printf(integer.toString()));
-
-
-
     }
 
     public static <T> void forEach(List<T> list, Consumer<T> c){
