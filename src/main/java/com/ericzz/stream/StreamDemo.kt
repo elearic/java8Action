@@ -1,4 +1,4 @@
-package ericzz.defaultMethod
+package ericzz.defaultmethod
 
 /**
  * java8  demo
