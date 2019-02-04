@@ -5,13 +5,11 @@
  */
 package com.ericzz.functionInteface;
 
-import jdk.nashorn.internal.objects.annotations.Getter;
-import jdk.nashorn.internal.objects.annotations.Setter;
 
 import java.util.function.Supplier;
 
 /** 
- * 
+ * Supplier 函数描述符 () -> T
   * @author zz_huns  
  * @version Id: SupplierTestDemo.java, v 0.1 2019/2/4 11:49 PM zz_huns Exp $$
   */
