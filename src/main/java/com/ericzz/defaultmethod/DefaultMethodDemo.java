@@ -33,14 +33,10 @@ public class DefaultMethodDemo {
             }
         });
 
-<<<<<<< HEAD:src/main/java/ericzz/defaultMethod/DefaultMethodDemo.java
         Thread thread = new Thread(() -> {
             System.out.println("hello world");
         });
 
-=======
-        Thread thread = new Thread(() -> System.out.printf("hello world"));
->>>>>>> a343ff448968eee407d484c9c64ef52b56a0c26f:src/main/java/com/ericzz/defaultmethod/DefaultMethodDemo.java
 
     }
 }
