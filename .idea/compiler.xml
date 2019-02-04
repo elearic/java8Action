@@ -9,5 +9,8 @@
         <module name="java8Action" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="java8Action" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
