@@ -5,6 +5,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Function;
 
+/**
+ * Function 函数描述符 T -> R
+ */
 public class FunctionTestDemo {
     public static void main(String[] args) {
         //java.util.function.Function<T,R> 接口定义了一个apply()方法，接受一个泛型T的对象，返回一个R类型的对象。

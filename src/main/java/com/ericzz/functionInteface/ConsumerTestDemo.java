@@ -5,6 +5,9 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
 
+/**
+ * Consumer 函数描述符 T -> void
+ */
 public class ConsumerTestDemo {
     public static void main(String[] args) {
         List list = new ArrayList();

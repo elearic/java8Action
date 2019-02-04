@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
 
+/**
+ * Predicate 函数描述符 T -> boolean
+ */
 public class PredicateTestDemo {
 
     public static void main(String[] args){

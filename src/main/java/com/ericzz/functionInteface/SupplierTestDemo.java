@@ -18,7 +18,7 @@ import java.util.function.Supplier;
 public class SupplierTestDemo {
 
     //java.util.Function.Supplier<T> 具有唯一一个抽象方法叫做get,
-    //代表的函数描述符是 () -> T, 
+    //代表的函数描述符是 () -> T,
     Supplier<Apple> supplier = () -> new Apple();
 
 
