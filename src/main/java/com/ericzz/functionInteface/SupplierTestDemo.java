@@ -9,7 +9,7 @@ package com.ericzz.functionInteface;
 import java.util.function.Supplier;
 
 /** 
- * Supplier 函数描述符 () -> T
+ * Supplier
   * @author zz_huns  
  * @version Id: SupplierTestDemo.java, v 0.1 2019/2/4 11:49 PM zz_huns Exp $$
   */
