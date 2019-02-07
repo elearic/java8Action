@@ -1,4 +1,4 @@
-package com.ericzz.functionInteface;
+package com.ericzz.part.one.functionInteface;
 
 import java.util.ArrayList;
 import java.util.Arrays;
