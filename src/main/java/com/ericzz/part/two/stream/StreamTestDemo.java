@@ -56,7 +56,18 @@ public class StreamTestDemo {
                 .map(Banana::getCountry)
                 .collect(toList());
 
-        //---------------------流的扁平化---------------------------------
+        //---------------------筛选和切片---------------------------------
 
+        //用谓词筛选：
+
+        //Stream接口支持filter。该操作会接受一个谓词(一个返回boolean的函数)作为参数，并才返回
+        //所有符合谓词的元素的流。
+        List<Banana> bananas1 = bananas.stream()
+                .filter(banana -> banana.getWeight() > 300 ) //谓词判断筛选出符合条件的元素
+                .collect(toList());
+
+        //筛选各异的元素
+
+        //流还支持一个叫做distince的方法，它会
     }
 }
