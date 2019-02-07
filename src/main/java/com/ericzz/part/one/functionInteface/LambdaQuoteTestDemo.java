@@ -5,6 +5,8 @@
  */
 package com.ericzz.part.one.functionInteface;
 
+import com.ericzz.part.base.pojo.Banana;
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.BiFunction;
@@ -53,54 +55,6 @@ public class LambdaQuoteTestDemo {
         //lambda    (args) -> expr.instanceMethod(args)
         //方法引用   expr::instanceMethod
 
-    }
-}
-
-
-class Banana {
-
-    private String color;
-
-    private Integer weight;
-
-    private String country;
-
-    public Banana(Integer weight) {
-        this.weight = weight;
-    }
-
-    public Banana() {
-
-    }
-
-    public Banana(String color, Integer weight) {
-        this.color = color;
-        this.weight = weight;
-    }
-
-
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-
-    public Integer getWeight() {
-        return weight;
-    }
-
-    public void setWeight(Integer weight) {
-        this.weight = weight;
-    }
-
-    public String getCountry() {
-        return country;
-    }
-
-    public void setCountry(String country) {
-        this.country = country;
     }
 }
 

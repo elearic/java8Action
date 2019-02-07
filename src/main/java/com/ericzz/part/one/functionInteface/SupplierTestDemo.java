@@ -6,6 +6,8 @@
 package com.ericzz.part.one.functionInteface;
 
 
+import com.ericzz.part.base.pojo.Apple;
+
 import java.util.function.Supplier;
 
 /** 
@@ -24,15 +26,3 @@ public class SupplierTestDemo {
 }
 
 
-class Apple {
-
-    private String color;
-
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
-    }
-}
