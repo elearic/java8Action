@@ -7,6 +7,7 @@ package com.ericzz.part.two.stream;
 
 import com.ericzz.part.base.pojo.Banana;
 
+import java.lang.reflect.Array;
 import java.util.*;
 
 import static java.util.stream.Collectors.toList;
@@ -97,8 +98,32 @@ public class StreamTestDemo {
                                        .collect(toList());
 
         //---------------------映射---------------------------------
-        
+        //流支持map，它会接受一个函数作为参数。这个函数会被应用到每个元素上，并将其映射成一个新的元素
+        //(使用映射一词),是因为它和转换类似，但其中的细微差别在于它是"创建一个新版本"，而不是去修改。
+        //例如，下面的代码把方法Banana:getCountry 传给了map,来提取流中国家的名称
+        List<String> bananas3 = bananas.stream()
+                                        .map(Banana::getCountry)
+                                        .collect(toList());
+        //因为getColor方法返回一个String,所以map方法输出的流的类型就是Stream(String)
+        //让我们看一个一个稍微不同的例子来巩固一下对map的理解。给定一个单词的列表，你想要返回另一个列表，
+        //显示每个单词中有几个字母，怎么做呢?
+        //你需要对列表中的每个元素应用一个函数，这听起来正好该用map方法去做！！！
+        //应用的函数应该接受一个单词，并返回其长度。
+        //例:
+        List<String> words = Arrays.asList("java","c++","python","go");
+        List<Integer> wordLengths = words.stream()
+                                            .map(String::length)
+                                            .collect(toList());
 
+        //现在让我们回到提取国家名称的例子。如果你要找出每个国家的名称有多长，怎么做？
+        //你可以像下面，再链接上一个map
+        List<Integer> bananaCountryLength = bananas.stream()
+                                                    .map(Banana::getCountry)
+                                                    .map(String::length)
+                                                    .collect(toList());
+
+        //---------------------流的扁平化---------------------------------
+        
 
     }
 }

@@ -17,6 +17,7 @@ public class Banana {
 
     private String country;
 
+
     public Banana(Integer weight) {
         this.weight = weight;
     }
