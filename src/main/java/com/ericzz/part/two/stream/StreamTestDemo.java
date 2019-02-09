@@ -9,6 +9,7 @@ import com.ericzz.part.base.pojo.Banana;
 
 import java.lang.reflect.Array;
 import java.util.*;
+import java.util.stream.Stream;
 
 import static java.util.stream.Collectors.toList;
 
@@ -123,7 +124,39 @@ public class StreamTestDemo {
                                                     .collect(toList());
 
         //---------------------流的扁平化---------------------------------
-        
+        //场景：对于一张单词表，如何返回一张列表，列出里面各不相同的字符呢？
+        //例如，给定单词列表["hello","world"],你想要返回列表['h','e','l','o',','w','r','d']
+        List<String> words1 = Arrays.asList("hello","word");
+        List<String[]> words2 = words1.stream()
+                .map(word -> word.split(""))
+                .distinct()
+                .collect(toList());
+        //这么写存在一个问题，map函数返回的是一个String[]，场景需要返回的是String
+
+        //尝试使用map和Arrays.stream()
+
+        //Arrays.stream()方法接受一个数组，返回一个字符流
+        String[] arraysOfWords = {"google","facebook"};
+        Stream<String> streamOfWords = Arrays.stream(arraysOfWords);
+        //把它应用到上面的场景中，看看发生了什么
+        words1.stream()
+                .map(word -> word.split(""))
+                .map(Arrays::stream)
+                .distinct()
+                .collect(toList());
+        //这么写依旧存在一个问题：Arrays::stream 把map(word -> word.split(""))返回一个数组流编程了一个独立的流。
+        //不符合以上场景提出的需求
+
+        // flatMap (扁平map)
+
+        List<String> uniqueCharacters = words1.stream()
+                .map(word -> word.split(""))    //将各个单词转换为由其字母构成的数组
+                .flatMap(Arrays::stream)
+                .distinct()
+                .collect(toList());
+        //使用flatMap方法的效果是，各个数组并不是分别映射成一个流，而是映射成流的内容。
+        //所有使用map(Arrays:stream)时生成的单个流都被合并起来，即扁平化为一个流。
+
 
     }
 }

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a796923-8a1d-4a87-802d-22930a7e17d7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ericzz/part/base/pojo/Banana.java" afterPath="$PROJECT_DIR$/src/main/java/com/ericzz/part/base/pojo/Banana.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/ericzz/part/two/stream/StreamMatchTestDemo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/ericzz/part/two/stream/StreamTestDemo.java" afterPath="$PROJECT_DIR$/src/main/java/com/ericzz/part/two/stream/StreamTestDemo.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -27,11 +26,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="StreamTestDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StreamTestDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzz/part/two/stream/StreamTestDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="125" column="8" lean-forward="false" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="8" />
+            <state relative-caret-position="664">
+              <caret line="138" column="55" lean-forward="true" selection-start-line="138" selection-start-column="55" selection-end-line="138" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StreamMatchTestDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzz/part/two/stream/StreamMatchTestDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -251,6 +260,15 @@
               <item name="java8Action" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="part" type="462c0819:PsiDirectoryNode" />
+              <item name="stream" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java8Action" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java8Action" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -404,12 +422,12 @@
       <option name="presentableId" value="Default" />
       <updated>1549294142518</updated>
       <workItem from="1549294143837" duration="20432000" />
-      <workItem from="1549724306568" duration="1261000" />
+      <workItem from="1549724306568" duration="3125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21693000" />
+    <option name="totallyTimeSpent" value="23557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -512,7 +530,7 @@
         <state relative-caret-position="1026">
           <caret line="67" column="23" lean-forward="false" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -535,8 +553,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzz/part/two/stream/StreamTestDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="125" column="8" lean-forward="false" selection-start-line="125" selection-start-column="8" selection-end-line="125" selection-end-column="8" />
+        <state relative-caret-position="664">
+          <caret line="138" column="55" lean-forward="true" selection-start-line="138" selection-start-column="55" selection-end-line="138" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ericzz/part/two/stream/StreamMatchTestDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
