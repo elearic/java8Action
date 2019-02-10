@@ -9,7 +9,7 @@ import java.util.List;
 import java.util.Optional;
 
 /** 
- * java8实战 5.4规约
+ * java8实战 5.4 归约
   * @author zz_huns  
  * @version Id: StreamMapReduceTestDemo.java, v 0.1 2019/2/10 1:09 AM zz_huns Exp $$
  *
