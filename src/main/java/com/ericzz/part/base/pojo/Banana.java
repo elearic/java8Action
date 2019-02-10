@@ -17,6 +17,8 @@ public class Banana {
 
     private String country;
 
+    private Integer price;
+
 
     public Banana(Integer weight) {
         this.weight = weight;
@@ -30,7 +32,6 @@ public class Banana {
         this.color = color;
         this.weight = weight;
     }
-
 
     public String getColor() {
         return color;
@@ -56,4 +57,11 @@ public class Banana {
         this.country = country;
     }
 
+    public Integer getPrice() {
+        return price;
+    }
+
+    public void setPrice(Integer price) {
+        this.price = price;
+    }
 }
