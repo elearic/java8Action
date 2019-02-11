@@ -2,7 +2,7 @@
  *  Bestpay.com.cn Inc.
  *  Copyright (c) 2011-2019 All Rights Reserved.
  */
-package com.ericzz.part.two.stream.exercise;
+package com.ericzz.java8.two.stream.exercise;
 
 import java.util.Arrays;
 import java.util.Comparator;

@@ -2,7 +2,7 @@
  *  Bestpay.com.cn Inc.
  *  Copyright (c) 2011-2019 All Rights Reserved.
  */
-package com.ericzz.part.two.stream;
+package com.ericzz.java8.two.stream;
 
 import java.io.IOException;
 import java.nio.charset.Charset;

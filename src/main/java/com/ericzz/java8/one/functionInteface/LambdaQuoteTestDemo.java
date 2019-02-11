@@ -3,9 +3,9 @@
  *  Bestpay.com.cn Inc.
  *  Copyright (c) 2011-2019 All Rights Reserved.
  */
-package com.ericzz.part.one.functionInteface;
+package com.ericzz.java8.one.functionInteface;
 
-import com.ericzz.part.base.pojo.Banana;
+import com.ericzz.java8.base.pojo.Banana;
 
 import java.util.Arrays;
 import java.util.List;

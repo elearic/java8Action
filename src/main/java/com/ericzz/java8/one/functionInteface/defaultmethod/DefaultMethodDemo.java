@@ -3,7 +3,7 @@
  *  Bestpay.com.cn Inc.
  *  Copyright (c) 2011-2019 All Rights Reserved.
  */
-package com.ericzz.part.one.functionInteface.defaultmethod;
+package com.ericzz.java8.one.functionInteface.defaultmethod;
 
 import java.util.ArrayList;
 import java.util.Comparator;

@@ -3,7 +3,7 @@
  *  Bestpay.com.cn Inc.
  *  Copyright (c) 2011-2019 All Rights Reserved.
  */
-package com.ericzz.part.base.pojo;
+package com.ericzz.java8.base.pojo;
 
 /** 
  * 
