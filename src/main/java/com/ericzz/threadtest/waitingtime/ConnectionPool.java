@@ -63,24 +63,36 @@ public class ConnectionPool {
     public Connection fetchConnection(long mills) throws InterruptedException{
         synchronized (pool){
             //完全超时
-            if (mills <= 0){
-                while (pool.isEmpty()){
-                    pool.wait();
-                }
-                return pool.removeFirst();
-            }else {
-                long future = System.currentTimeMillis() + mills;
-                long remaining = mills;
-                while (pool.isEmpty() && remaining > 0){
-                    pool.wait(remaining);
-                    remaining = future - System.currentTimeMillis();
-                }
-                Connection connection = null;
-                if (!pool.isEmpty()){
-                    connection = pool.removeFirst();
-                }
-                return connection;
+//            if (mills <= 0){
+//                while (pool.isEmpty()){
+//                    pool.wait();
+//                }
+//                return pool.removeFirst();
+//            }else {
+//                long future = System.currentTimeMillis() + mills;
+//                long remaining = mills;
+//                while (pool.isEmpty() && remaining > 0){
+//                    pool.wait(remaining);
+//                    remaining = future - System.currentTimeMillis();
+//                }
+//                Connection connection = null;
+//                if (!pool.isEmpty()){
+//                    connection = pool.removeFirst();
+//                }
+//                return connection;
+//            }
+
+            long future = System.currentTimeMillis() + mills;
+            long remaining = mills;
+            while (pool.isEmpty() && remaining > 0){
+                pool.wait(remaining);
+                remaining = future - System.currentTimeMillis();
             }
+            Connection connection = null;
+            if (!pool.isEmpty()){
+                connection = pool.removeFirst();
+            }
+            return connection;
         }
     }
 }
