@@ -13,7 +13,7 @@ import java.util.stream.Stream;
 
 /**
  *  java8实战 5.7 构建流
- *  * @author zz_huns  
+ *   @author zz_huns  
  *  @version Id: StreamCreateTestDemo.java, v 0.1 2019/2/11 1:03 AM zz_huns Exp $$
  * <p>
  * 如何从值序列、数组、文件来创建流，生成函数创建无限流

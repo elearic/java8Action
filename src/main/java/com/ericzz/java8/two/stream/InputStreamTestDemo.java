@@ -17,7 +17,7 @@ import java.util.stream.Stream;
 /** 
  * java8实战 5.6数值流
   * @author zz_huns  
- * @version Id: StreamOriginalTypeTestDemo.java, v 0.1 2019/2/11 12:35 AM zz_huns Exp $$
+ * @version Id: InputStreamTestDemo.java, v 0.1 2019/2/11 12:35 AM zz_huns Exp $$
  *
  * Stream API 提供了原始类型流特化，专门支持处理数值流的方法
  * java8 引入了三个原始类型特化流接口来解决这个问题
@@ -30,7 +30,7 @@ import java.util.stream.Stream;
  *
  *
   */
-public class StreamOriginalTypeTestDemo {
+public class InputStreamTestDemo {
     public static void main(String[] args) {
         List<Banana> bananas = new ArrayList<>();
 
@@ -58,9 +58,9 @@ public class StreamOriginalTypeTestDemo {
 
         //-----------------转换回对象流---------------
         IntStream intStream = bananas.stream().mapToInt(Banana::getPrice);
+        //boxed将数值刘转回String(Integer)
         Stream<Integer> integerStream = intStream.boxed();
-
-
+d
         //-----------------默认值 OptionalInt---------------
         //-----------------默认值 OptionalDouble---------------
         //-----------------默认值 OptionalLong---------------
