@@ -60,7 +60,7 @@ public class InputStreamTestDemo {
         IntStream intStream = bananas.stream().mapToInt(Banana::getPrice);
         //boxed将数值刘转回String(Integer)
         Stream<Integer> integerStream = intStream.boxed();
-d
+
         //-----------------默认值 OptionalInt---------------
         //-----------------默认值 OptionalDouble---------------
         //-----------------默认值 OptionalLong---------------
