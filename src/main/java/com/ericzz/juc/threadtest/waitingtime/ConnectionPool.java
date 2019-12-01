@@ -3,7 +3,7 @@
  *  Bestpay.com.cn Inc.
  *  Copyright (c) 2011-2019 All Rights Reserved.
  */
-package com.ericzz.threadtest.waitingtime;
+package com.ericzz.juc.threadtest.waitingtime;
 
 /** 
  * java并发编程的艺术 4.4.2

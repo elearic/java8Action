@@ -2,7 +2,7 @@
  *  Bestpay.com.cn Inc.
  *  Copyright (c) 2011-2019 All Rights Reserved.
  */
-package com.ericzz.threadtest.waitingtime;
+package com.ericzz.juc.threadtest.waitingtime;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
