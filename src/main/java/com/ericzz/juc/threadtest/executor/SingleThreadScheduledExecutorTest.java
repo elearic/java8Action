@@ -1,4 +1,4 @@
-package com.ericzz.juc.threadtest.executor.demo;
+package com.ericzz.juc.threadtest.executor;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
