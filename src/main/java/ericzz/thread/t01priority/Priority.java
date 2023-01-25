@@ -1,4 +1,4 @@
-package ericzz.thread.priority;
+package ericzz.thread.t01priority;
 
 import java.util.ArrayList;
 import java.util.List;

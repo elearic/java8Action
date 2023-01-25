@@ -1,4 +1,4 @@
-package ericzz.thread.threadState;
+package ericzz.thread.t02threadState;
 
 /**
  * @Author：huns
