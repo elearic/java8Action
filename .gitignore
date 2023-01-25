@@ -10,7 +10,7 @@ tmp/
 .project
 .classpath
 .loadpath
-
+.hprof
 ## External tool builders
 .externalToolBuilders/
 
