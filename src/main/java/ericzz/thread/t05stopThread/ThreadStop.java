@@ -15,7 +15,7 @@ public class ThreadStop {
 		Thread countThread = new Thread(one, "CountThread");
 		countThread.start();
 
-		//睡眠1秒，main线程对countThread进行中断，使countThread能够感知中断而结束
+		//睡眠1秒，main线程对countThread进行中断，使countThread能够感知 中断而结束
 		SleepUtils.second(1);
 		countThread.interrupt();
 
