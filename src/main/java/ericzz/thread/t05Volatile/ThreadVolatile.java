@@ -1,4 +1,4 @@
-package ericzz.thread.t05volatile;
+package ericzz.thread.t05Volatile;
 
 import ericzz.thread.SleepUtils;
 
