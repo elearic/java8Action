@@ -1,0 +1,3 @@
+如果一个线程A执行了thread.join()语句，其含义是：当线程A等待thread线程终止之后才从thread.join()返回。
+线程Thread除了提供join()方法之外，还提供了join(long millis)和join(long millis, int nanos)两个具备超时
+特性的方法。这两个超时方法表示，如果线程thread在给定的超时时间里终止，那么将会从该超时方法中返回。

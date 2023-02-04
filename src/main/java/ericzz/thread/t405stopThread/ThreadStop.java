@@ -1,4 +1,4 @@
-package ericzz.thread.t05stopThread;
+package ericzz.thread.t405stopThread;
 
 import ericzz.thread.SleepUtils;
 

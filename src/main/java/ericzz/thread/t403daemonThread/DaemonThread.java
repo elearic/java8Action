@@ -1,4 +1,4 @@
-package ericzz.thread.t03daemonThread;
+package ericzz.thread.t403daemonThread;
 
 import ericzz.thread.SleepUtils;
 

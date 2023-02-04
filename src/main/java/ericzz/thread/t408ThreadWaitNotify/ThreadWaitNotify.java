@@ -1,4 +1,4 @@
-package ericzz.thread.t06ThreadWaitNotify;
+package ericzz.thread.t408ThreadWaitNotify;
 
 import ericzz.thread.SleepUtils;
 import lombok.SneakyThrows;

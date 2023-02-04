@@ -1,12 +1,13 @@
-package ericzz.thread.t02threadState;
+package ericzz.thread.t402threadState;
 
 /**
  * @Author：huns
  * @Date：2023/1/25
  */
-public class Thread2Running {
+public class Thread1New {
+
 	public static void main(String[] args) {
-		//运行状态 创造一个新的线程并运行
+		//初始状态 创造一个新的线程
 		Thread threadNew = new Thread(new Runnable() {
 			@Override
 			public void run() {

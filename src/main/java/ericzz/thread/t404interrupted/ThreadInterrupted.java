@@ -1,4 +1,4 @@
-package ericzz.thread.t04interrupted;
+package ericzz.thread.t404interrupted;
 
 import ericzz.thread.SleepUtils;
 import lombok.SneakyThrows;

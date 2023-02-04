@@ -1,4 +1,4 @@
-package ericzz.thread.t06Synchronized;
+package ericzz.thread.t407Synchronized;
 
 /**
  * 关键字Synchronized 可以修饰方法或者以同步块的形式来进行使用，它主要确保多个线程在同一时刻，只能有一个线程处于方法或者同步
